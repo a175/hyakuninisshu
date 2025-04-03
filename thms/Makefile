@@ -22,7 +22,7 @@ ${TEXFILE}.pdf: ${TEXFILE}.dvi
 
 bbl: ${TEXFILE}.bbl
 
-${TEXFILE}.bbl:
+${TEXFILE}.bbl: wikipedia.bib
 	${LATEX} ${TEXFILE} && ${BIBTEX} ${TEXFILE}
 
 
