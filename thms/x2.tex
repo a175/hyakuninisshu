@@ -314,14 +314,98 @@ $(x-y)^r=\sum_{k=0}^{\infty} x^{r-k}y^k$,
 \end{theoremX}
 \cite{wiki:積の微分法則}
   
-    ヤコブ・ベルヌーイ（1654-1705、スイス）：ベルヌーイ数
-    アブラーム・ド・モアブル（1667-1754、フランス）：ド・モアブルの定理
-    ヨハン・ベルヌーイ（1667-1748、スイス）：ヤコブ・ベルヌーイの弟、カテナリー曲線
-    ブルック・テイラー (1685-1731、イギリス): テイラー展開
-    コリン・マクローリン (1698-1746、スコットランド): マクローリン展開
-    ダニエル・ベルヌーイ(1700-1782、スイス):ヨハン・ベルヌーイの子、ベルヌーイの定理
-\section{18世紀生まれの有名な数学者}
+\subsection{ヤコブ・ベルヌーイ}
+ヤコブ・ベルヌーイ
+\cite{wiki:ヤコブ・ベルヌーイ}
+     （1654-1705、スイス）：ベルヌーイ数
+     \begin{theoremX}
+       $x$を$-1$以上の実数,
+       $r$を非負整数とする.
+       このとき,  
+    $( 1 + x )^r \geq 1 + rx$.
+     \end{theoremX}
+     \begin{remark}
+       Jacob Bernoulli first published the inequality in his treatise ``Positiones Arithmeticae de Seriebus Infinitis'' (Basel, 1689), where he used the inequality often.
 
+According to Joseph E. Hofmann, Über die Exercitatio Geometrica des M. A. Ricci (1963), p. 177, the inequality is actually due to Sluse in his Mesolabum (1668 edition), Chapter IV ``De maximis \& minimis''.
+     \cite{wiki:wiki:Bernoulli'sinequality}
+     \end{remark}
+
+\subsection{アブラーム・ド・モアブル}
+アブラーム・ド・モアブル
+\cite{wiki:アブラーム・ド・モアブル}
+（1667-1754、フランス）：ド・モアブルの定理
+\begin{theoremX}
+  $n$を整数, $\theta$を複素数とする.
+  このとき,
+  $(\cos( \theta)+\sqrt{-1}\sin(\theta))^n=\cos( n\theta)+\sqrt{-1}\sin(n\theta)$.
+\end{theoremX}
+\cite{wiki:wiki:ド・モアブルの定理}
+
+\subsection{ヨハン・ベルヌーイ}
+ヨハン・ベルヌーイ
+\cite{wiki:ヨハン・ベルヌーイ}
+（1667-1748、スイス）：ヤコブ・ベルヌーイの弟、カテナリー曲線
+\begin{theoremX}
+  $\int_0^{1}\frac{1}{x^x}\, dx = \sum_{n=1}^{\infty}\frac{1}{n^n}$.
+\end{theoremX}
+\cite{wiki:二年生の夢}
+
+
+\subsection{ブルック・テイラー}
+ブルック・テイラー
+\cite{wiki:ブルック・テイラー}
+(1685-1731、イギリス): テイラー展開
+\begin{theoremX}
+  $k$を正の整数とし,
+  関数$f\colon \RR\to \RR$を点$a\in\RR$で$k$回微分可能とする.
+  このとき, 次を満たす関数$h_k\colon \RR\to \RR$が存在する:
+  $f(x)=f(a)+\sum_{i=1}^{k}\frac{1}{i!}\frac{d^i}{dx^i}f(a)(x-a)^i+h_k(x)(x-a)^k$,
+  $\lim_{x\to a}h_k(x)=0$.
+\end{theoremX}
+\cite{wiki:テイラーの定理}
+
+\subsection{コリン・マクローリン}
+コリン・マクローリン
+\cite{wiki:コリン・マクローリン}
+(1698-1746、スコットランド): マクローリン展開
+\begin{theoremX}
+  $a_1,a_2,\ldots,a_n$を正の実数とし,
+  $k\in\Set{1,2,\ldots,n}$に対し,
+  $S_k=\frac{\sum_{1\leq i_1<i_2<\cdots<i_k\leq n} a_{i_1}a_{i_2}\cdots a_{i_k}}{\binom{n}{k}}$とおく.
+このとき, $S_1\geq \sqrt{S_2}\geq \sqrt[3]{S_3}\geq \cdots \geq \sqrt[n]{S_n}$.
+\end{theoremX}
+\cite{wiki:マクローリンの不等式}
+\subsection{ダニエル・ベルヌーイ}
+ダニエル・ベルヌーイ
+\cite{wiki:ダニエル・ベルヌーイ}
+(1700-1782、スイス):ヨハン・ベルヌーイの子、ベルヌーイの定理
+\begin{theoremX}
+  外力のない非粘性$\cdot$非圧縮性流体の定常な流れにおいて,
+  流体の速さを$v$,
+  圧力を$p$,
+  密度を$\rho$とする.
+  このとき,
+    $\frac {1}{2}v^{2}+\frac {p}{\rho }=\text{constant}$.
+    が流線上で成り立つ.
+\end{theoremX}
+\cite{wiki:ベルヌーイの定理}
+
+\section{18世紀生まれの有名な数学者}
+    レオンハルト・オイラー（1707-1783、スイス／ロシア）：解析学、整数論、多面体定理
+    ジャン・ル・ロン・ダランベール（1717-1783、フランス）：百科全書
+    ジョゼフ＝ルイ・ラグランジュ（1736-1813、イタリア／フランス）：解析力学、群論の先駆
+    ガスパール・モンジュ（1746-1818、フランス）：画法幾何学
+    ピエール＝シモン・ラプラス（1749-1827、フランス）：ラプラス変換
+    アドリアン＝マリ・ルジャンドル（1752-1833、フランス）：数論、代数学、解析学
+    ジョゼフ・フーリエ（1768-1830、フランス）：フーリエ級数
+    ボヤイ・ファルカシュ（1775-1858、ハンガリー）：ボーヤイ・ヤーノシュの父
+    ソフィー・ジェルマン（1776-1831、フランス）：弾性理論、ソフィー・ジェルマン素数
+    カール・フリードリヒ・ガウス（1777-1855、ドイツ）：代数学の基本定理、整数論、解析学
+    シメオン・ドニ・ポアソン（1781-1840、フランス）：ポアソン分布
+    ジャン＝ヴィクトル・ポンスレ（1788-1867、フランス）：射影幾何学
+    オーギュスタン＝ルイ・コーシー（1789-1857、フランス）：解析学、コーシーの積分定理
+    ニコライ・イワノビッチ・ロバチェフスキー（1792-1856、ロシア）：非ユークリッド幾何学
 \section{19世紀生まれの有名な数学者}
 1801年 -- 1810年生まれの有名な数学者
 
